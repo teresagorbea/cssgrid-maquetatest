@@ -7,6 +7,9 @@ body{
 .logo{
     text-align: center;
     grid-area: logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .logo a{
     text-decoration: none;
@@ -14,6 +17,7 @@ body{
 nav.menu{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     grid-area: navmenu;
 }
 nav.menu ul li{
@@ -29,6 +33,9 @@ section{
 .login-btn{
     grid-area: login;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .slides{
     grid-area: carousel;
